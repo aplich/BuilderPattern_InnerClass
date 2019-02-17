@@ -1,11 +1,11 @@
 public class House {
-    public String walls;
-    public String floors;
-    public String rooms;
-    public String roof;
-    public String windows;
-    public String doors;
-    public String garage;
+    private String walls;
+    private String floors;
+    private String rooms;
+    private String roof;
+    private String windows;
+    private String doors;
+    private String garage;
 
     //Prywatny konstruktor - jeśli ktoś będzie chciał stworzyć instancję klasy House, musi skorzystać z klasy HouseBuilder i jej metod.
     private House(HouseBuilder houseBuilder) {
