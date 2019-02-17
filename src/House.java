@@ -59,13 +59,13 @@ public class House {
                 '}';
     }
     public static class HouseBuilder {
-        public String walls;
-        public String floors;
-        public String rooms;
-        public String roof;
-        public String windows;
-        public String doors;
-        public String garage;
+        private String walls;
+        private String floors;
+        private String rooms;
+        private String roof;
+        private String windows;
+        private String doors;
+        private String garage;
 
         public HouseBuilder buildWalls(String walls) {
             this.walls = walls;
